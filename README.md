@@ -27,7 +27,7 @@ A.’
 - All operations seemed to give identical results, wherein each of the operations transposed the Matrix R.
 
 **b. Which two operations give identical results for the complex matrix Z?**
--The operations transpose(Z) and Z.' produce identical results, since the operation Z' changes the sign of the number with the imaginary symbol.
+- The operations transpose(Z) and Z.' produce identical results, since the operation Z' changes the sign of the number with the imaginary symbol.
 
 **c. What additional operation is performed by the apostrophe operator ' when the matrix contains
 complex entries?**
@@ -39,6 +39,7 @@ Solve the simultaneous system
 <img width="222" height="100" alt="image" src="https://github.com/user-attachments/assets/0a40b49f-7d3f-4b3a-a2e0-baa9230e5891" />
 
 Create the coefficient matrix A and right-hand-side vector b. Then compute the solution in two ways.
+
 **1. Inverse method:** compute x inv using the inverse of A.
 
 **2. Cramer’s Rule:** replace one column of A at a time with b, use determinants, and store the result in x_cramer. A loop is optional.
