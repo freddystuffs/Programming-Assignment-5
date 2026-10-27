@@ -22,6 +22,7 @@ A.’
 <img width="292" height="260" alt="image" src="https://github.com/user-attachments/assets/a7bbdc47-7c79-45b7-962f-4d4ba2e46eec" />
 
 **Questions**
+
 **a. Which operations give identical results for the real matrix R?**
 - All operations seemed to give identical results, wherein each of the operations transposed the Matrix R.
 
@@ -39,6 +40,7 @@ Solve the simultaneous system
 
 Create the coefficient matrix A and right-hand-side vector b. Then compute the solution in two ways.
 **1. Inverse method:** compute x inv using the inverse of A.
+
 **2. Cramer’s Rule:** replace one column of A at a time with b, use determinants, and store the result in x_cramer. A loop is optional.
 
 **Output:**
